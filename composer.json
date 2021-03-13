@@ -1,0 +1,13 @@
+{
+    "name": "carlosandrea/cms",
+    "description": "cms e-commerce",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "harcanox58",
+            "email": "cjoseare1995@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
