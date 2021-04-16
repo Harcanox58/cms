@@ -8,7 +8,7 @@ class Request
         if (isset($_GET['url'])) {
             $url = filter_input(INPUT_GET, 'url', FILTER_SANITIZE_URL);
             $url = explode('/', $url);
-            $this->_modules = APP_MODULOS;
+            $this->_modules = array();
             $this->_modulo = strtolower(array_shift($url));
             if (!$this->_modulo) {
                 $this->_controlador = strtolower(array_shift($url));
@@ -61,7 +61,7 @@ class Request
             $this->_argumentos = $url;
         }
         if (!$this->_controlador) {
-            $this->_controlador = 'Page';
+            $this->_controlador = 'page';
         }
         if (!$this->_metodo) {
             $this->_metodo = 'home';
@@ -69,6 +69,7 @@ class Request
         if (!$this->_argumentos) {
             $this->_argumentos = array();
         }
+        echo 'controlador:' . $this->_controlador . ' metodo:' . $this->_metodo;
     }
     public function getModulo()
     {

@@ -58,3 +58,44 @@ Stack trace:
 [2021-04-15 10:04:36] [E_ERROR: Class 'CoreController' not found] [IN FILE /var/www/html/cms/app/controllers/PageController.php] [LINE 2]
 [2021-04-15 10:04:37] [E_ERROR: Class 'CoreController' not found] [IN FILE /var/www/html/cms/app/controllers/PageController.php] [LINE 2]
 [2021-04-15 10:04:31] [E_WARNING: Use of undefined constant DEFAULT_METHOD - assumed 'DEFAULT_METHOD' (this will throw an Error in a future version of PHP)] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 42]
+[2021-04-15 10:04:01] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->initialize()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-15 10:04:31] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->initialize()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-15 10:04:55] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->initialize()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-15 10:04:34] [E_WARNING: Use of undefined constant APP_MODULOS - assumed 'APP_MODULOS' (this will throw an Error in a future version of PHP)] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 11]
+[2021-04-15 10:04:31] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->initialize()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-15 10:04:01] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->initialize()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-15 10:04:14] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->initialize()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-15 10:04:38] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->initialize()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-15 11:04:00] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->initialize()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]

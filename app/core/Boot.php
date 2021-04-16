@@ -23,7 +23,7 @@ class Boot
     {
         self::$rq = new Request();
         $modulo = self::$rq->getModulo();
-        $controlador = self::$rq->getControlador() . 'Controller';
+        $controlador = ucfirst(self::$rq->getControlador()) . 'Controller';
         $metodo = self::$rq->getMetodo();
         $args = self::$rq->getArgumentos();
 
@@ -38,8 +38,9 @@ class Boot
             if (is_callable(array($controlador, $metodo))) {
                 $metodo = self::$rq->getMetodo();
             } else {
-                $metodo = DEFAULT_METHOD;
+                $metodo = 'home';
             }
+
             if (isset($args)) {
                 call_user_func_array(array($controlador, $metodo), $args);
             } else {

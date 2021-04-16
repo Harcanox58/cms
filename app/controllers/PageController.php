@@ -5,4 +5,8 @@ class PageController
     {
         echo 'hola';
     }
+    public function test()
+    {
+        echo 'mundo';
+    }
 }
