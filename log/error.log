@@ -1,0 +1,60 @@
+[2021-04-15 09:04:55] [E_ERROR: Uncaught Error: Access to undeclared static property: Boot::$rq in /var/www/html/cms/app/core/Boot.php:17
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot::init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 17]
+[2021-04-15 09:04:53] [E_WARNING: Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' (this will throw an Error in a future version of PHP)] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 64]
+[2021-04-15 09:04:07] [E_NOTICE: Undefined variable: rutaControllador] [IN FILE /var/www/html/cms/index.php] [LINE 5]
+[2021-04-15 09:04:19] [E_NOTICE: Undefined variable: rutaControlador] [IN FILE /var/www/html/cms/index.php] [LINE 5]
+[2021-04-15 09:04:15] [E_NOTICE: Undefined variable: rutaControlador] [IN FILE /var/www/html/cms/index.php] [LINE 5]
+[2021-04-15 09:04:18] [E_ERROR: Uncaught Error: Call to undefined method Boot::getModulo() in /var/www/html/cms/app/core/Boot.php:28
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->go()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 28]
+[2021-04-15 09:04:14] [E_ERROR: Uncaught Error: Call to undefined method Boot::getModulo() in /var/www/html/cms/app/core/Boot.php:28
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->go()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 28]
+[2021-04-15 09:04:01] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:54
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->go()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 54]
+[2021-04-15 09:04:20] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->go()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-15 09:04:55] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->go()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-15 10:04:06] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->go()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-15 10:04:32] [E_ERROR: Uncaught Error: Class 'PageController' not found in /var/www/html/cms/app/core/Boot.php:38
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->go()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 38]
+[2021-04-15 10:04:45] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->go()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-15 10:04:57] [E_ERROR: Uncaught Error: Class 'PageController' not found in /var/www/html/cms/app/core/Boot.php:38
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->go()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 38]
+[2021-04-15 10:04:42] [E_ERROR: Class 'CoreController' not found] [IN FILE /var/www/html/cms/app/controllers/PageController.php] [LINE 2]
+[2021-04-15 10:04:24] [E_ERROR: Class 'CoreController' not found] [IN FILE /var/www/html/cms/app/controllers/PageController.php] [LINE 2]
+[2021-04-15 10:04:26] [E_ERROR: Class 'CoreController' not found] [IN FILE /var/www/html/cms/app/controllers/PageController.php] [LINE 2]
+[2021-04-15 10:04:36] [E_ERROR: Class 'CoreController' not found] [IN FILE /var/www/html/cms/app/controllers/PageController.php] [LINE 2]
+[2021-04-15 10:04:37] [E_ERROR: Class 'CoreController' not found] [IN FILE /var/www/html/cms/app/controllers/PageController.php] [LINE 2]
+[2021-04-15 10:04:31] [E_WARNING: Use of undefined constant DEFAULT_METHOD - assumed 'DEFAULT_METHOD' (this will throw an Error in a future version of PHP)] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 42]

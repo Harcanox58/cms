@@ -19,7 +19,13 @@
         define('_CJ_APP_DIR_', realpath($currentDir . DS . '..') . DS);
     }
     if (!defined('_CJ_CORE_DIR_')) {
-        define('_CJ_CORE_DIR_', _CJ_APP_DIR_ . DS . 'core' . DS);
+        define('_CJ_CORE_DIR_', _CJ_APP_DIR_ . 'core' . DS);
+    }
+    if (!defined('_CJ_CONTROLLERS_DIR_')) {
+        define('_CJ_CONTROLLERS_DIR_', _CJ_APP_DIR_ . 'controllers' . DS);
+    }
+    if (!defined('_CJ_MODULES_DIR_')) {
+        define('_CJ_MODULES_DIR_', _CJ_ROOT_DIR_ . 'modules' . DS);
     }
     if (!defined('_CJ_CONFIG_DIR')) {
         define('_CJ_CONFIG_DIR', realpath($currentDir) . DS);

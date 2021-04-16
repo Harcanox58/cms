@@ -7,7 +7,7 @@ class Db extends PDO
     private function __construct()
     {
         self::$db = new PDO("mysql:host=" . _DB_HOST_ .
-            ";dbname=" . _DB_NAME_, _DB_USER_, _DB_PASS_, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES ' . _DB_CSET_, PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => false));
+            ";dbname=" . _DB_DATABASE_, _DB_USER_, _DB_PASSWORD_, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES ' . _DB_CHARSET_, PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => false));
     }
     public static function getInstance()
     {
