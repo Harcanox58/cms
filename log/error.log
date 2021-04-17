@@ -99,3 +99,13 @@ Stack trace:
 #0 /var/www/html/cms/index.php(4): Boot->initialize()
 #1 {main}
   thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-16 08:04:05] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-16 08:04:46] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(3): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]

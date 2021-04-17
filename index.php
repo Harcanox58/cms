@@ -1,5 +1,3 @@
 <?php
-define('DS', DIRECTORY_SEPARATOR);
-require_once dirname(__FILE__) . DS . 'app' . DS . 'config' . DS . 'config.inc.php';
-Boot::init()->initialize();
-echo '<pre>';
+require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . 'app' . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'config.inc.php';
+Boot::getInstanse()->init();

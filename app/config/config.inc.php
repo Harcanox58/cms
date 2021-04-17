@@ -1,6 +1,9 @@
 <?php
+define('DS', DIRECTORY_SEPARATOR);
 $currentDir = dirname(__FILE__);
+
 /* Custom defines made by users */
+
 /* require core files */
 require_once $currentDir . DS . 'defines.inc.php';
 require_once _CJ_CONFIG_DIR . 'defines.func.php';

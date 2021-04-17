@@ -7,7 +7,7 @@ class Boot
 {
 
     private static $rq;
-    public static function init()
+    public static function getInstanse()
     {
 
         if (!self::$rq instanceof self) {
@@ -19,7 +19,7 @@ class Boot
         }
         return self::$rq;
     }
-    public function initialize()
+    public function init()
     {
         self::$rq = new Request();
         $modulo = self::$rq->getModulo();
