@@ -24,6 +24,7 @@ class Boot
         self::$rq = new Request();
         $modulo = self::$rq->getModulo();
         $controlador = ucfirst(self::$rq->getControlador()) . 'Controller';
+        echo $controlador;
         $metodo = self::$rq->getMetodo();
         $args = self::$rq->getArgumentos();
 

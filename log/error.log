@@ -109,3 +109,297 @@ Stack trace:
 #0 /var/www/html/cms/index.php(3): Boot->init()
 #1 {main}
   thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-18 08:04:57] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-18 09:04:22] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:5
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 5]
+[2021-04-18 09:04:57] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:5
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 5]
+[2021-04-18 09:04:59] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:5
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 5]
+[2021-04-18 09:04:00] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:5
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 5]
+[2021-04-18 09:04:01] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:5
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 5]
+[2021-04-18 09:04:13] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:8
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 8]
+[2021-04-18 09:04:56] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:8
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 8]
+[2021-04-18 09:04:47] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:8
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 8]
+[2021-04-18 09:04:48] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:8
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 8]
+[2021-04-18 09:04:49] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:8
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 8]
+[2021-04-18 09:04:50] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:8
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 8]
+[2021-04-18 09:04:51] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:8
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 8]
+[2021-04-18 09:04:51] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:8
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 8]
+[2021-04-18 09:04:52] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:8
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 8]
+[2021-04-18 09:04:53] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:8
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 8]
+[2021-04-18 09:04:54] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:8
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 8]
+[2021-04-18 09:04:55] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:8
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 8]
+[2021-04-18 09:04:56] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:8
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 8]
+[2021-04-18 09:04:03] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:8
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 8]
+[2021-04-18 09:04:17] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:8
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 8]
+[2021-04-18 09:04:33] [E_NOTICE: Undefined variable: fileName] [IN FILE /var/www/html/cms/app/config/autoload.php] [LINE 33]
+[2021-04-18 09:04:36] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:8
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 8]
+[2021-04-18 09:04:50] [E_NOTICE: Undefined variable: fileName] [IN FILE /var/www/html/cms/app/config/autoload.php] [LINE 33]
+[2021-04-18 09:04:08] [E_NOTICE: Undefined variable: fileName] [IN FILE /var/www/html/cms/app/config/autoload.php] [LINE 33]
+[2021-04-18 09:04:41] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:6
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 6]
+[2021-04-18 09:04:12] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:6
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 6]
+[2021-04-18 09:04:31] [E_NOTICE: Undefined variable: fileName] [IN FILE /var/www/html/cms/app/config/autoload.php] [LINE 33]
+[2021-04-18 09:04:51] [E_NOTICE: Undefined variable: fileName] [IN FILE /var/www/html/cms/app/config/autoload.php] [LINE 32]
+[2021-04-18 09:04:02] [E_NOTICE: Undefined variable: fileName] [IN FILE /var/www/html/cms/app/config/autoload.php] [LINE 31]
+[2021-04-18 09:04:03] [E_NOTICE: Undefined variable: fileName] [IN FILE /var/www/html/cms/app/config/autoload.php] [LINE 31]
+[2021-04-18 09:04:01] [E_NOTICE: Undefined variable: fileName] [IN FILE /var/www/html/cms/app/config/autoload.php] [LINE 30]
+[2021-04-18 09:04:02] [E_NOTICE: Undefined variable: fileName] [IN FILE /var/www/html/cms/app/config/autoload.php] [LINE 30]
+[2021-04-18 09:04:04] [E_NOTICE: Undefined variable: fileName] [IN FILE /var/www/html/cms/app/config/autoload.php] [LINE 30]
+[2021-04-18 09:04:04] [E_NOTICE: Undefined variable: fileName] [IN FILE /var/www/html/cms/app/config/autoload.php] [LINE 30]
+[2021-04-18 09:04:24] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:6
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 6]
+[2021-04-18 09:04:28] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:6
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 6]
+[2021-04-18 09:04:44] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:6
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 6]
+[2021-04-18 09:04:12] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:6
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 6]
+[2021-04-18 09:04:14] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:6
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 6]
+[2021-04-18 09:04:15] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:6
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 6]
+[2021-04-18 09:04:16] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:6
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 6]
+[2021-04-18 09:04:27] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:6
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 6]
+[2021-04-18 09:04:29] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:6
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 6]
+[2021-04-18 09:04:46] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:6
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 6]
+[2021-04-18 09:04:12] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:6
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 6]
+[2021-04-18 09:04:27] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:4
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 4]
+[2021-04-18 09:04:36] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:5
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 5]
+[2021-04-18 09:04:02] [E_NOTICE: Undefined variable: fileName] [IN FILE /var/www/html/cms/app/config/autoload.php] [LINE 30]
+[2021-04-18 09:04:03] [E_NOTICE: Undefined variable: fileName] [IN FILE /var/www/html/cms/app/config/autoload.php] [LINE 30]
+[2021-04-18 09:04:35] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/index.php:5
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 5]
+[2021-04-18 09:04:17] [E_ERROR: Uncaught Error: Class 'Module' not found in /var/www/html/cms/app/controllers/PageController.php:6
+Stack trace:
+#0 /var/www/html/cms/app/core/Boot.php(45): PageController->home()
+#1 /var/www/html/cms/index.php(4): Boot->init()
+#2 {main}
+  thrown] [IN FILE /var/www/html/cms/app/controllers/PageController.php] [LINE 6]
+[2021-04-18 09:04:24] [E_NOTICE: Undefined variable: fileName] [IN FILE /var/www/html/cms/app/config/autoload.php] [LINE 33]
+[2021-04-18 09:04:05] [E_DEPRECATED: Non-static method Module::Install() should not be called statically] [IN FILE /var/www/html/cms/index.php] [LINE 5]
+[2021-04-18 09:04:15] [E_ERROR: Uncaught Error: Cannot access protected property Module::$name in /var/www/html/cms/index.php:6
+Stack trace:
+#0 {main}
+  thrown] [IN FILE /var/www/html/cms/index.php] [LINE 6]
+[2021-04-18 09:04:32] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-18 09:04:20] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-18 09:04:32] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-18 09:04:42] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-18 09:04:44] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-18 09:04:44] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-18 09:04:45] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-18 09:04:46] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-18 09:04:46] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-18 09:04:47] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-18 09:04:47] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-18 09:04:48] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-18 09:04:48] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:50
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 50]
+[2021-04-18 09:04:19] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:51
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 51]
+[2021-04-18 09:04:21] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:51
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 51]
+[2021-04-18 09:04:41] [E_NOTICE: Undefined index: cms_best_sellers] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 95]
+[2021-04-18 09:04:52] [E_NOTICE: Undefined index: cms_best_sellers] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 95]
+[2021-04-18 09:04:53] [E_NOTICE: Undefined index: cms_best_sellers] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 95]
+[2021-04-18 09:04:54] [E_NOTICE: Undefined index: cms_best_sellers] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 95]
+[2021-04-18 09:04:54] [E_NOTICE: Undefined index: cms_best_sellers] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 95]
+[2021-04-18 09:04:55] [E_NOTICE: Undefined index: cms_best_sellers] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 95]
+[2021-04-18 09:04:55] [E_NOTICE: Undefined index: cms_best_sellers] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 95]
+[2021-04-18 09:04:56] [E_NOTICE: Undefined index: cms_best_sellers] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 95]
+[2021-04-18 09:04:56] [E_NOTICE: Undefined index: cms_best_sellers] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 95]
+[2021-04-18 09:04:57] [E_NOTICE: Undefined index: cms_best_sellers] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 95]
+[2021-04-18 09:04:57] [E_NOTICE: Undefined index: cms_best_sellers] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 95]
+[2021-04-18 09:04:58] [E_NOTICE: Undefined index: cms_best_sellers] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 95]
+[2021-04-18 09:04:59] [E_NOTICE: Undefined index: cms_best_sellers] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 95]
+[2021-04-18 09:04:00] [E_NOTICE: Undefined index: cms_best_sellers] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 95]
+[2021-04-18 09:04:00] [E_NOTICE: Undefined index: cms_best_sellers] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 95]
+[2021-04-18 09:04:50] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:51
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 51]
+[2021-04-18 10:04:06] [E_WARNING: array_key_exists() expects parameter 2 to be array, string given] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 18]
+[2021-04-18 10:04:12] [E_WARNING: array_key_exists() expects parameter 2 to be array, string given] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 18]
+[2021-04-18 10:04:48] [E_WARNING: array_key_exists() expects parameter 2 to be array, string given] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 18]
+[2021-04-18 10:04:36] [E_WARNING: array_key_exists() expects parameter 2 to be array, string given] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 18]
+[2021-04-18 10:04:49] [E_ERROR: Uncaught Exception: CONTROLADOR NO ENCONTRADO in /var/www/html/cms/app/core/Boot.php:51
+Stack trace:
+#0 /var/www/html/cms/index.php(4): Boot->init()
+#1 {main}
+  thrown] [IN FILE /var/www/html/cms/app/core/Boot.php] [LINE 51]
+[2021-04-18 10:04:45] [E_WARNING: array_key_exists() expects parameter 2 to be array, string given] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 18]
+[2021-04-18 10:04:46] [E_WARNING: array_key_exists() expects parameter 2 to be array, string given] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 18]
+[2021-04-18 10:04:58] [E_WARNING: array_key_exists() expects parameter 2 to be array, string given] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 18]
+[2021-04-18 10:04:12] [E_WARNING: array_key_exists() expects parameter 2 to be array, string given] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 18]
+[2021-04-18 10:04:23] [E_WARNING: array_key_exists() expects parameter 2 to be array, string given] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 18]
+[2021-04-18 10:04:41] [E_WARNING: array_key_exists() expects parameter 2 to be array, string given] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 18]
+[2021-04-18 10:04:48] [E_WARNING: array_key_exists() expects parameter 2 to be array, string given] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 17]
+[2021-04-18 10:04:20] [E_WARNING: array_key_exists() expects parameter 2 to be array, string given] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 17]
+[2021-04-18 10:04:34] [E_WARNING: array_key_exists() expects parameter 2 to be array, string given] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 17]
+[2021-04-18 10:04:47] [E_WARNING: array_key_exists() expects parameter 2 to be array, string given] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 18]
+[2021-04-18 10:04:08] [E_WARNING: array_key_exists() expects parameter 2 to be array, string given] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 18]
+[2021-04-18 10:04:19] [E_WARNING: array_key_exists() expects parameter 2 to be array, string given] [IN FILE /var/www/html/cms/app/core/Request.php] [LINE 18]

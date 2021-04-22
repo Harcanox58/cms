@@ -1,9 +1,9 @@
 <?php
 spl_autoload_register(function ($className) {
     $arr_dir = array(
+        _CJ_APP_DIR_ . 'classes' . DS,
         realpath(dirname(__FILE__)),
         _CJ_APP_DIR_ . 'core' . DS,
-        _CJ_APP_DIR_ . 'classes' . DS,
         _CJ_APP_DIR_ . 'libs' . DS,
     );
     $arr_ext = array(

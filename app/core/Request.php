@@ -8,8 +8,9 @@ class Request
         if (isset($_GET['url'])) {
             $url = filter_input(INPUT_GET, 'url', FILTER_SANITIZE_URL);
             $url = explode('/', $url);
-            $this->_modules = array();
+            $this->_modules = $this->diployModules();
             $this->_modulo = strtolower(array_shift($url));
+            echo $this->_modulo;
             if (!$this->_modulo) {
                 $this->_controlador = strtolower(array_shift($url));
                 $this->_modulo = false;
@@ -69,7 +70,6 @@ class Request
         if (!$this->_argumentos) {
             $this->_argumentos = array();
         }
-        echo 'controlador:' . $this->_controlador . ' metodo:' . $this->_metodo;
     }
     public function getModulo()
     {
@@ -86,5 +86,14 @@ class Request
     public function getArgumentos()
     {
         return $this->_argumentos;
+    }
+    public function diployModules()
+    {
+        $mod = Db::getInstance()->ExecuteS('SELECT * FROM ' . _DB_PREFIX_ . 'modules');
+        $modules = array();
+        for ($i = 0; $i < count($mod); $i++) {
+            $modules = $mod[$i]['name'];
+        }
+        return $modules;
     }
 }

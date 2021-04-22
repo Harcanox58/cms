@@ -1,9 +1,10 @@
 <?php
-class PageController
+class PageController extends Module
 {
     public function home()
     {
-        echo 'hola';
+        $this->name = 'best_sellers';
+        parent::install();
     }
     public function test()
     {
